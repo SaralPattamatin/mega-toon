@@ -14,10 +14,22 @@ import blue_page_2 from "@/assets/mockimage/br_1_p_2.jpg";
 import blue_page_3 from "@/assets/mockimage/br_1_p_3.jpg";
 import blue_page_4 from "@/assets/mockimage/br_1_p_4.jpg";
 
+import thumbnail_1 from "@/assets/thumnel/Thumbnail_4.jpg";
+import thumbnail_2 from "@/assets/thumnel/Thumbnail_5.jpg";
+import thumbnail_3 from "@/assets/thumnel/thumbnail_2.jpg";
+import thumbnail_4 from "@/assets/thumnel/thumbnail_6.jpg";
+
 export type type = {
   image?: StaticImageData;
   title?: string;
 };
+
+export const thumbnails: type[] = [
+  { image: thumbnail_1 },
+  { image: thumbnail_2 },
+  { image: thumbnail_3 },
+  { image: thumbnail_4 },
+];
 
 export const bookList: type[] = [
   {
@@ -52,6 +64,10 @@ export const bookList: type[] = [
     image: blue_lock_8,
     title: "Blue Lock เล่มที่ 8",
   },
+  {
+    image: blue_lock_7,
+    title: "Blue Lock เล่มที่ 9",
+  }
 ];
 
 export const days: type[] = [
