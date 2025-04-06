@@ -8,6 +8,7 @@ import blue_lock_5 from "@/assets/bookstore/blue_lock_5.jpg";
 import blue_lock_6 from "@/assets/bookstore/blue_lock_6.jpg";
 import blue_lock_7 from "@/assets/bookstore/blue_lock_7.jpg";
 import blue_lock_8 from "@/assets/bookstore/blue_lock_8.jpg";
+import blue_lock_9 from "@/assets/bookstore/blue_lock_9.jpg";
 
 import blue_page_1 from "@/assets/mockimage/br_1_p_1.jpg";
 import blue_page_2 from "@/assets/mockimage/br_1_p_2.jpg";
@@ -65,7 +66,7 @@ export const bookList: type[] = [
     title: "Blue Lock เล่มที่ 8",
   },
   {
-    image: blue_lock_7,
+    image: blue_lock_9,
     title: "Blue Lock เล่มที่ 9",
   }
 ];
